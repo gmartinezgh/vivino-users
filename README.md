@@ -2,7 +2,6 @@
 
 Scrape the data on vivino users via following API's
 - HTTP POST https://www.vivino.com/users/x/country_rankings - top ranked users for a country
-BODY
 ```
   {
       "page": 1,
