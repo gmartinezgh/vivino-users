@@ -6,6 +6,8 @@ import time
 import sys
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+logger = spark._jvm.org.apache.log4j
+logging.getLogger("py4j").setLevel(logging.ERROR)
 
 COUNTRY_RANKING_URL = "https://www.vivino.com/users/x/country_rankings"
 USERS_URL = "http://app.vivino.com/api/users/{seo_name}"
