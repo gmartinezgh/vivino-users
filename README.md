@@ -20,5 +20,5 @@ Vivino users are graph vertices and the follower relationships build the edges b
 ## Community detection
 A community detection algorithm LPA Label Propagation Algorithm was ran on the graph of vivino users. For details please open the [above notebook](https://github.com/sansar-choinyambuu/vivino-users/blob/main/vivino-users-graph-analysis.ipynb). One of the resulting communities were plotted interactively in the following html using the [pyvis](https://pyvis.readthedocs.io/en/latest/index.html) library
 
-[Interactive plot of a vivino user community](https://htmlpreview.github.io/?https://github.com/sansar-choinyambuu/vivino-users/blob/main/nx.html)
+[Interactive plot of a vivino user community](https://github.com/sansar-choinyambuu/vivino-users/blob/main/nx.html)
 
