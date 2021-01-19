@@ -22,3 +22,19 @@ A community detection algorithm LPA Label Propagation Algorithm was ran on the g
 
 [Interactive plot of a vivino user community](https://github.com/sansar-choinyambuu/vivino-users/blob/main/nx.html)
 
+
+# vivino top rated wines
+
+Scrape the data of the top rated wines for the highest ranked vivino users via selenium for python and Mozilla Firefox webdriver
+
+- "https://www.vivino.com/users/{user_id}/top"
+
+# Wines recommendations
+
+The notebook [vivino_wines_recommendations.ipynb](https://github.com/sansar-choinyambuu/vivino-users/blob/main/vivino_wines_recommendations.ipynb) presents a collaborative filtering-based recommendation system for wines and users.
+The model fills a user-item matrix, providing recommendations in both directions: wines to users and users to wines.
+The model is built with the support of [pyspark.ml](https://spark.apache.org/docs/latest/api/python/pyspark.ml.html) and the [Alternating Least Squares (ALS)](https://dl.acm.org/doi/10.1109/MC.2009.263) algorithm. 
+
+## Wines ratings graph
+
+A basic analysis of a graph of users and their rated wines is performed with [GraphFrames](https://graphframes.github.io/graphframes/docs/_site/index.html)
